@@ -12,7 +12,9 @@ PushBullet (You need to put the API key in pushbullet_parameters.json, further i
 # First time Initialization
 Open the target website page in a browser, then press Ctrl+I and reload, and go to the network tab. Find the HTML tag and choose it. Then search for the HTML file that contains the table that appears on the website (you can find an preview by choosing the file and clicking on response tab). Once the desired file is known, click on the headers tab, and copy the [request_link].
 
-Open the scraper_parameters.json, and fill in the domain, start_urls=[request_link], input the filename that you want the table to be saved in (to be saved inside Data/) and finally the names of the columns of the table (in the table header)
+Open the scraper_parameters.json, and fill in the domain, start_urls=[request_link], input the filename that you want the table to be saved in (to be saved inside Data/) and finally the names of the columns of the table (in the table header).
+
+create a directory inside the project folder (name it Data).
 
 # How to Run
 run the following command
