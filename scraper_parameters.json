@@ -1,0 +1,6 @@
+{
+    "allowed_domains" : ["www.exampleDomain.com"],
+    "start_urls" : ["https://www.exampleDomain.com/[Find this link in the HTTP request header of the desired HTML file]]"],
+    "filename" : "FileName",
+    "cols":["Col1","Col2","Col3","....."]
+}
